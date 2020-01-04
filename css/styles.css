@@ -1,0 +1,193 @@
+body{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1 {
+    margin: 5% 0;
+    color: hsl(210, 10%, 33%);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h2{
+    color: hsl(210, 10%, 33%);
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+h3{
+    margin: 1% 0;
+    color: hsl(210, 10%, 33%);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+p{
+    color: hsl(201, 11%, 66%);
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 2% 0 5% 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+/* Buttons */
+
+.btn {
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 15px 40px;
+    margin: 0 2%;
+    box-shadow: ;
+}
+
+.btn-ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 4px 0px 0px #3ba08e, 0.3em 0.5em 2em rgba(0,0,0,0.3);
+}
+
+.btn-mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 4px 0px 0px #5463c6, 0.3em 0.5em 2em rgba(0,0,0,0.3);
+    
+}
+
+/* HEADER Section */
+
+.header{
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 10% 20%;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 10%;
+}
+
+/* TRACK Section */
+
+.track-section, .clipboard-section, .workflow-section, .logos-tech, .download-section{
+    padding: 5% 10%;
+}
+.top-track-section{
+    padding: 0 10%;
+}
+.track-section .features{
+    text-align: left;
+    padding-right: 5%;
+}
+
+.track-section .features p, .workflow-col-section p{
+    font-size: 1rem;
+}
+.track-section .computer{
+    position: relative;
+    right: 175px;
+}
+
+/* WORKFLOW Section */
+
+.workflow-section{
+    line-height: 2;
+}
+.icon{
+    margin-bottom: 40px;
+}
+
+/* LOGOS */
+
+.logo-tech{
+    padding: 0% 3%;
+}
+
+/* DOWNLOAD Section */
+
+
+
+/* FOOTER */
+
+.footer{
+    background-color: #f5f6f8;
+    padding: 3% 5%;
+    font-size: 1.2rem;
+}
+
+.footer a{
+    color: hsl(210, 10%, 33%);
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.menu {
+    text-align: left;
+}
+
+.logo-footer {
+    width: 64px;
+}
+
+.social{
+    text-align: center;
+}
+.logo-social{
+    margin: 0 10px;
+}
+
+/* MEDIA RESPONSIVE */
+
+@media (max-width: 991px) {
+    h1{
+        font-size: 2.1em;
+    }
+
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .header {
+        padding: 30% 5%;
+    }
+    .btn {
+        padding: 15px 80px;
+        margin: 5%;
+    }
+    .track-section, .clipboard-section, .workflow-section, .logos-tech, .download-section{
+        padding: 10% 5%;
+    }
+    
+    .track-section .features {
+        text-align: center;
+        padding: 10%;
+    }
+    .track-section .computer{
+        position: static;
+        width: 95%;
+    }
+    .devices {
+        position: static;
+        width: 100%;
+    }
+    .icon{
+        margin: 10% 0 5%;
+    }
+ 
+    .logo-tech {
+        margin: 10% 3%;
+    }
+    .footer, .social, .menu{
+        text-align: center;
+        padding: 10%;
+    }
+ }
+
